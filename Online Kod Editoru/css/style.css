@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1; 
+}
+
+textarea {
+    min-height: 250px;
+    resize: none;
+    color: #f1f1f1;  
+    background-color: #333;
+    border: 1px solid #444;
+    resize: vertical;
+}
+
+textarea:focus {
+    border-color: #1e90ff;
+    background-color: #444;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.card-body {
+    background-color: #222;
+}
+
+#output-frame {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    resize: vertical;
+}
